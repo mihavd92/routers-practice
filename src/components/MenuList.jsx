@@ -1,5 +1,6 @@
 import {NavLink} from "react-router-dom";
 
+// link styles in App.css
 
 function MenuList() {
     return (

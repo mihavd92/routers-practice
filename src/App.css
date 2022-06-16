@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul a {
+  padding: 8px 12px;
+  border: 2px solid #ccc;
+  text-decoration: none;
+  color: #858282;
+  cursor: pointer;
+}
+
+nav ul a:hover {
+  color: #000;
+}
+
+nav ul a.active {
+  background-color: #ccc;
+}
